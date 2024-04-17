@@ -1,0 +1,42 @@
+@media (max-width:960px) {
+
+    .burger-menu{
+        display: none;
+    }
+
+    li{
+        display: block;
+        border: 1px solid black;
+        text-align: center;
+        padding: 10px;
+        background-color: orange;
+        width: 40%;
+        margin-bottom: 2px;
+    }
+
+    label{
+        display: block;
+        width: 30px;
+        text-align: center;
+        padding: 3px;
+        border: 1px solid black;
+        margin-bottom: 2px;
+    }
+
+    input[type="checkbox"]:checked + label{
+        content: "\2716";
+    }
+    
+    input[type="checkbox"]:checked ~ .burger-menu{
+        display: block;
+    }
+    label{
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+            background-color: orange;
+            width: 40%;
+            word-spacing: 5px;
+        }
+    }
+   

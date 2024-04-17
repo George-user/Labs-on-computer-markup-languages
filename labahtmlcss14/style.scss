@@ -1,0 +1,42 @@
+p {
+    color: blue;
+    font-size: 16pt;
+    font-family: Arial;
+}
+
+table td {
+    color: red;
+}
+
+table tr {
+    color: purple;
+}
+
+h1 {
+    margin-left: 50%;
+}
+
+.li1 {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+
+.li2 {
+    color: yellow;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+.li3 {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}

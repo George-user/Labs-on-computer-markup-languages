@@ -1,0 +1,51 @@
+div {
+  text-align: center;
+}
+button {
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  color: black;
+  font-size: 16px;
+  margin: 10px;
+} 
+
+.button1:hover {
+  background-color: black;
+  color: white;
+}
+
+.button2:hover {
+  border: solid 6px yellow;
+  outline: solid 6px red;
+}
+
+.button3:hover {
+  border-top: 6px solid green;
+  border-bottom: 6px solid green;
+}
+
+.button4:hover {
+  border-right: 6px solid blue;
+  border-left: 6px solid blue;
+}
+
+.button5:hover {
+  background: radial-gradient(closest-side, yellow, hotpink, deepskyblue);
+}
+
+h1 {
+  text-align: center;
+  animation: h1 4s linear infinite;
+}
+@keyframes h1 {
+  0% {
+  opacity: 0;
+  }
+  50% {
+  opacity: 0.8;
+  }
+  100% {
+  opacity: 0;
+  }
+}

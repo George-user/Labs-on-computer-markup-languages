@@ -1,0 +1,118 @@
+.bez{
+    margin-top: 600px;
+}
+@keyframes perv{
+    0% {
+    left: 0;
+    top: 0;
+    }
+    
+    50% {
+    left: 200px;
+    top: 0px;
+    }
+    
+    100% {
+    left: 0;
+    top: 0px;
+    }
+} 
+.perem1 {
+    position: relative;
+    animation: perv 4s linear infinite;
+}
+@keyframes vtor {
+    0% {
+    left: 0;
+    top: 0;
+    }
+    50% {
+    left: 0;
+    top: 200px;
+    }
+    100% {
+    left: 0;
+    top: 0px;
+    }
+}   
+.perem2{
+    position: relative;
+    animation: vtor 4s linear;
+}
+    
+@keyframes tret {
+    0% {
+    left: 0;
+    top: 0;
+    }
+    
+    25% {
+    left: 200px;
+    top: 200px;
+    }
+    
+    50% {
+    left: 200px;
+    top: 0;
+    }
+    
+    75% {
+    left: 0;
+    top: 200px;
+    }
+    
+    100% {
+    left: 0;
+    top: 0;
+    }
+}
+    
+.perem3 {
+    position: relative;
+    animation: tret 4s linear infinite;
+}
+@keyframes chet {
+    0% {
+    left: 0;
+    top: 0;
+    }
+    
+    25% {
+    left: 200px;
+    top: 0;
+    }
+    
+    50% {
+    left: 200px;
+    top: 200px;
+    }
+    
+    75% {
+    left: 0;
+    top: 200px;
+    }
+    
+    100% {
+    left: 0;
+    top: 0;
+    }
+}
+.perem4 {
+    position: relative;
+    animation: chet 4s linear infinite;
+}
+h1 {
+    text-align: center;
+    animation: h1 4s linear infinite;
+}
+@keyframes h1 {
+    0% {
+    opacity: 0;
+    }
+    50% {
+    opacity: 0.8;
+    }
+    100% {
+    opacity: 0;
+    }
+}

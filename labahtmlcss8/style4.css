@@ -1,0 +1,50 @@
+ul li {
+    position: relative;
+    list-style-type: none;
+    float: left;
+    width: 200px;
+}
+
+ul a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+    color: black;
+}
+
+.sli {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.menu>li div{
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    width:30px;
+    height: 20px;
+    background-image: url('facultet.png');
+}
+
+.menu .li2:hover .it{
+    background-position: 0 -30px;
+}
+
+.menu .li3:hover .xtit{
+    background-position: 0 -90px;
+}
+
+.menu .li4:hover .pim{
+    background-position: 0 -60px;
+}

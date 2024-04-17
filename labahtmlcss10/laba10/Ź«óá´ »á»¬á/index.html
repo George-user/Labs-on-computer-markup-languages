@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="green.css" media="(max-width:1280px)">
+    <style>
+        @import url(blue.css) (max-width: 768px);
+        @media (max-width:480px) {
+            figcaption{
+                color:red;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">
+            <input type="checkbox" id="burger-menu">
+            <label for="burger-menu">&#8801 Бургер-меню</label>
+            <div class="burger-menu">
+                <ul>
+                    <li><a href="#">Видео</a></li>
+                    <li><a href="#">Информация</a></li>
+                    <li><a href="#">Аудио</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class="head">
+            <h1>FlexBox вёрстка</h1>
+        </div>
+        <div class="item1">
+            <video controls src="movies/video.mp4"></video>
+            <video controls src="movies/video.mp4"></video>
+            <video controls src="movies/video.mp4"></video>
+        </div>
+        <div class="item2">
+            <h3>Введение</h3>
+            <p>Flexbox разметка в CSS даёт один из наиболее эффективных способов расстановки, выравнивания и
+                распределения
+                места между элементами внутри контейнера, даже если их размер неизвестен или динамичен (собственно, по
+                этому
+                его и называют flex, от слова flexible, что по-английски имеет двойственное значение — гибкий и
+                уступчивый,
+                что очень сочетается с моделью поведения flexbox).</p>
+
+            <p>Основной целью flexbox является предоставление возможности изменения своих элементов по ширине и высоте,
+                для
+                того, чтобы они максимально эффективно умещались в доступном месте родительского контейнера, в частности
+                —
+                это удобно в тех случаях, когда нужно соответствовать всем типам дисплеев устройств и размерам экранов.
+                Flex
+                контейнер расширяет вложенные элементы для того, чтобы заполнить доступное пространство или же урезает
+                их,
+                чтобы избежать переполнения.</p>
+
+            <p>Очень важный момент, flexbox независим от направления, в отличие от обычных шаблонов, блочная модель
+                основана на вертикальном размещении элементов, а инлайновая на горизонтальной. Пока это достаточно
+                хорошо
+                работало на простых страницах (и сайтах), эти недостатки в гибкости довольно сильно влияли на поддержку
+                больших и сложных приложений, особенно когда дело касалось смены ориентирования, ресайзинга,
+                растягивания
+                или наоборот сокращения элементов.</p>
+
+            <p>Учтите, что Flexbox лучше всего подходит для компонентов в приложении и для не масштабных шаблонов.
+                Существует Grid модель разметки, которая предназначена для работы с большими шаблонами и комплексными
+                приложениями. Именно этот момент очень хорошо и доступно расписан в статьях — Решающая CSS битва: Grid
+                против Flexbox и Когда нужно использовать Flexbox</p>
+
+            <h3>Основы и терминология</h3>
+            <p>Так как flexbox является полноценным модулем, а не простым свойством, он включает в себя множество
+                интересного, а в частности полный набор рабочих свойств. Некоторые из них созданы для использования на
+                контейнере (родительский элемент, известный как flex-container), в то время как другие должны помогать
+                исполнять свои роли дочерним элементам.</p>
+
+            <p>Если обычный шаблон основан как на блочных, так и на инлайновых элементах, формирующих поток, то
+                flex-шаблон
+                основан на нескольких потоках. Посмотрите на это изображение, наглядно показывающее основную идею flex
+                шаблонизации.</p>
+
+            <p>Элементы в flexbox могут располагаться вдоль основной оси (от main-start до main-end) или же вдоль
+                поперечной оси (от cross-start до cross-end).</p>
+
+            <p>Main axis — основная ось flex контейнера, вдоль которой располагаются flex элементы. Обратите внимание,
+                что
+                ей необязательно быть горизонтальной, все зависит от свойства flex-direction, о котором вы прочитаете
+                позже.</p>
+            <img src="img/flexbox.png" alt="">
+        </div>
+        <div class="item3">
+            <audio controls src="audio/beauteous-upbeat-electronic-162757.mp3"></audio>
+            <audio controls src="audio/glossy-168156.mp3"></audio>
+            <audio controls src="audio/once-in-paris-168895.mp3"></audio>
+        </div>
+    </div>
+    <div class="gallery">
+        <figure>
+            <img src="img/fit.png" alt="">
+            <figcaption>Изображение 1</figcaption>
+            </img>
+        </figure>
+        <figure>
+            <img src="img/fit.png" alt="">
+            <figcaption>Изображение 2</figcaption>
+            </img>
+        </figure>
+        <figure>
+            <img src="img/fit.png" alt="">
+            <figcaption>Изображение 3</figcaption>
+            </img>
+        </figure>
+        <figure>
+            <img src="img/fit.png" alt="">
+            <figcaption>Изображение 4</figcaption>
+            </img>
+        </figure>
+        <figure>
+            <img src="img/fit.png" alt="">
+            <figcaption>Изображение 5</figcaption>
+            </img>
+        </figure>
+        <figure>
+            <img src="img/fit.png" alt="">
+            <figcaption>Изображение 6</figcaption>
+            </img>
+        </figure>
+        <figure>
+            <img src="img/fit.png" alt="">
+            <figcaption>Изображение 7</figcaption>
+            </img>
+        </figure>
+        <figure>
+            <img src="img/fit.png" alt="">
+            <figcaption>Изображение 8</figcaption>
+            </img>
+        </figure>
+    </div>
+</body>
+
+</html>

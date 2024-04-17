@@ -1,0 +1,39 @@
+div {
+    perspective: 1500px;
+    perspective-origin: center top;
+}
+.yellow1{
+    transform: rotateX(40deg);
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+.yellow2{
+    transform: rotateY(30deg);
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+.yellow3{
+    transform: rotateX(40deg);
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+.yellow4{
+    transform: rotateY(-30deg);
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+h1 {
+    text-align: center;
+    animation: h1 4s linear infinite;
+}
+@keyframes h1 {
+    0% {
+    opacity: 0;
+    }
+    50% {
+    opacity: 0.8;
+    }
+    100% {
+    opacity: 0;
+    }
+}

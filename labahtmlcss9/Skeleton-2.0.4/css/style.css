@@ -1,0 +1,28 @@
+li {
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid rgba(91, 103, 226, 0.942);
+    margin-left: -5px;
+    background: rgb(35, 12, 70);
+    
+}
+ol{
+    text-align: center;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+img{
+    width: 100px;
+    height: 100px;
+    
+}
+.row {
+    border: 1px solid black;
+}
+p,
+h5{
+    text-align: center;
+}

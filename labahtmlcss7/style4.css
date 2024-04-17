@@ -1,0 +1,130 @@
+.div1 {
+    position: absolute;
+    left: 0;
+    margin-left: 0px;
+    animation-name: animation1_2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.div2 {
+    
+    position: absolute;
+    left: 0;
+    margin-left: 40px;
+    animation-name: animation1_3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+.div3 {
+    position: absolute;
+    left: 0;
+    margin-left: 80px;
+    animation-name: animation1_4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.div4 {
+    position: absolute;
+    left: 0;
+    margin-left: 120px;
+    animation-name: animation1_5;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes animation1_2 {
+    0% {
+        position: absolute;
+        left: 0;
+        transform: perspective(1000px) rotateY(50deg);
+    }
+
+    50% {
+        transform: perspective(1000px) rotateY(0deg);
+ 
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(0deg);
+        margin-right: 5px;
+    }
+}
+
+@keyframes animation1_3 {
+    0% {
+        position: absolute;
+        left: 0;
+        transform: perspective(1000px) rotateY(50deg);
+    }
+
+    50% {
+        transform: perspective(1000px) rotateY(0deg);
+        margin-right: -190px;
+       
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(0deg);
+        margin-right: 5px;
+        left:260px;
+    }
+}
+
+@keyframes animation1_4 {
+    0% {
+        position: absolute;
+        left: 0;
+        transform: perspective(1000px) rotateY(50deg);
+    }
+
+    50% {
+        transform: perspective(1000px) rotateY(0deg);
+        margin-right: -190px;
+
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(0deg);
+        margin-right: 5px;
+        left: 520px;
+    }
+}
+
+@keyframes animation1_5 {
+    0% {
+        position: absolute;
+        left: 0;
+        transform: perspective(1000px) rotateY(50deg);
+    }
+
+    50% {
+        transform: perspective(1000px) rotateY(0deg);
+        margin-right: -190px;
+     
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(0deg);
+        margin-right: 5px;
+        left: 780px;
+    }
+}
+h1 {
+    text-align: center;
+    animation: h1 4s linear infinite;
+  }
+  .img2 {
+    filter: blur(10px);
+  }
+  .img3 {
+    filter: grayscale(1);
+  }
+  .img4 {
+    filter: invert(1);
+  }

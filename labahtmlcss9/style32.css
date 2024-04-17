@@ -1,0 +1,65 @@
+.grid{
+    display: grid;
+    grid-template-columns:10% 70% 20%;  
+    grid-template-rows:6% 93% 6%;
+    grid-template-areas:
+    'header header header'
+    'nav article aside'
+    'footer footer footer';
+}
+.header{
+    grid-area: header;
+    background: grey;
+    font-size: 30px;
+    
+}
+.nav{
+    grid-area: nav;
+    background: grey;
+}
+.article{
+    grid-area: article;
+    background: grey;
+    font-size: 30px;
+}
+
+.aside{
+    grid-area: aside;
+    background: grey;
+    font-size: 50px;
+}
+.footer{
+    grid-area:footer ;
+    background: grey;
+    
+}
+.grid div{
+    border: 3px solid white;
+    text-align: center;
+}
+li{
+list-style-type: none;
+margin-left:-42px ;
+font-size: 20px;
+}
+a:visited{
+    
+    color: burlywood;
+}
+a{
+    text-decoration: none;
+}
+.ani{
+    animation-name: an;
+    animation-timing-function: linear;
+    animation-duration: 0.0001s;
+    animation-iteration-count: infinite;
+}
+@keyframes an{
+    from{
+        color: white;
+    }
+    to{
+        color: black;
+    }
+}

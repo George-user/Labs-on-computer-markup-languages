@@ -1,0 +1,21 @@
+h{
+    display: block;
+    text-align: center;
+    font-family: 'Lucida Sans' sans-serif;
+    color:greenyellow;
+    font-size: 60pt;
+    
+}
+h3{
+    display: block;
+    text-align: center;
+    color:orchid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+content{
+    display: block;
+    text-align: center;
+    font-family: Verdana, sans-serif ;
+    font-size: 25px;
+}

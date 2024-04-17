@@ -1,0 +1,67 @@
+
+
+@font-face {
+    font-family:'Caveat';
+              src:url(fonts/Caveat.ttf);
+}
+h1{
+    font-family: 'Caveat';
+    line-height: 0;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px red;
+}
+@font-face {
+    font-family: 'Exo2';
+                src: url(fonts/Exo2.ttf);
+}
+h2{
+    font-family: 'Exo2';
+    margin-top: 0.2rem;
+    margin-bottom: 1.2em;
+    text-indent: 25px;
+    text-align: left;
+}
+@font-face {
+    font-family: 'Comfortaa';
+               src: url(fonts/Comfortaa.ttf);
+}
+p{
+    font-family: 'Comfortaa';
+    text-indent: 25px;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 200%;
+    font-size: 20px;
+}
+p:first-letter{
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+    background-color: hsla(275, 100%, 10%, 1);
+    
+}
+.zachtitelabupozhaluysta{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+ol li {
+list-style-type: none;
+counter-increment: item;
+font-family: 'Comfortaa';
+text-indent: 25px;
+text-align: justify;
+margin-top: 0;
+margin-bottom: 0;
+line-height: 200%;
+font-size: 20px;
+
+}
+li:before {
+content: counter(item, upper-roman) "."; 
+color: blue;
+}

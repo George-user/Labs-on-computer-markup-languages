@@ -1,0 +1,52 @@
+.q img {
+    border: 5px green solid;
+    position: absolute;
+    height: 500px;
+    width: 900px;
+    opacity: 0;
+    animation: anim 5s infinite;
+}
+@keyframes anim {
+    0% {
+    opacity: 1;
+    }
+    20% {
+    opacity: 1;
+    }
+    21% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 0;
+    }
+    }
+div .anim1 {
+    animation-delay: 1s; 
+}
+div .anim2 {
+    animation-delay: 2s;
+}
+div .anim3 {
+    animation-delay: 3s;
+}
+div .anim4 {
+    animation-delay: 4s;
+}
+div .anim5 {
+    animation-delay: 5s;
+}
+h1 {
+    text-align: center;
+    animation: h1 4s linear infinite;
+}
+@keyframes h1 {
+    0% {
+    opacity: 0;
+    }
+    50% {
+    opacity: 0.8;
+    }
+    100% {
+    opacity: 0;
+    }
+}

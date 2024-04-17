@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl.xsl"?>
+<!DOCTYPE sort[
+<!ELEMENT sort (element+)>
+<!ELEMENT element (number, letter)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT letter (#PCDATA)>]>
+
+<sort>
+<element>
+<number>1</number>
+<letter>А</letter>
+</element>
+<element>
+<number>2</number>
+<letter>Б</letter>
+</element>
+<element>
+<number>3</number>
+<letter>В</letter>
+</element>
+<element>
+<number>11</number>
+<letter>Г</letter>
+</element>
+<element>
+<number>5</number>
+<letter>Д</letter>
+</element>
+<element>
+<number>6</number>
+<letter>Е</letter>
+</element>
+<element>
+<number>7</number>
+<letter>Ё</letter>
+</element>
+<element>
+<number>8</number>
+<letter>Ж</letter>
+</element>
+</sort>

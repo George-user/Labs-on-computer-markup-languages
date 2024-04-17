@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Задание 3</title>
+        <meta charset="uft-8">
+        <style type="text/css">
+        form{
+            background-color: indigo;
+            width: 460px;
+            height: 400px;
+            margin: auto;
+            font-size: 1.2em;
+            box-shadow: inset 0 0 10px rgba(255,255,255, .75);
+            color: rgba(255,255,255,1);
+        }
+        p{
+            text-align: center;
+            font-weight: bold;
+        }
+        label{
+            display: inline-block;
+            width: 12em;
+            vertical-align: top;
+            text-align: left;
+            margin-bottom: 12px;
+            margin-right: 7px;
+            margin-left: 10px;
+        }
+        .knopki{
+            background-color: navy;
+            box-shadow: 0 0 4px white;
+            color: rgba(255,255,255,1);
+        }
+        input{
+            background-color: rgba(255,255,255,.5);
+            box-shadow: inset 0 0 10px rgba(255,255,255, .75);
+            border-radius: 5px;
+        }
+        
+        .bez {
+            background-color: rgba(255,255,255,.5);
+            box-shadow: inset 0 0 10px rgba(255,255,255, .75);
+        }   
+        input:focus {
+            background-color: black;
+            color: white;
+        }
+        .bez:focus{
+            background-color: rgba(255,255,255,.5);
+            box-shadow: inset 0 0 10px rgba(255,255,255, .75);
+        }
+        </style>
+    </head>
+    <body>
+        <form>
+            <p>Регистрация постоянного клиент</p>
+            <label >Фамилия:</label> <input type="text" ></br>
+            <label >Имя:</label> <input type="text"></br>
+            <label >Отчество:</label> <input type="text" ></br>
+            <label>Ваш возраст:</label> <input type="text" ></br> 
+            <label >Пол:</label><input type="checkbox" " name="1">мужской<input type="checkbox" id="check1" name="1">женский <br>
+            <label>Email:</label> <input type="text" class="bez"></br>
+            <label >Страна проживания:</label> <input type="text" ></br>
+            <label>Выберите вариант:</label> <select name="sp" ></br>
+                <option>Выберите вариант:</option>
+                <option>Из рассказа друзей</option>
+                <option>Увидел рекламу в интернете</option>
+                <option>По объявление</option>
+                <option>Другое</option>
+                </select></br>
+            <label >Дата заполнения:</label><input type="date" ></br>
+            <label class="knopki" ></label><input type="submit" value="Регистрация"   class="knopki"><input type="button" value="Отменить" class="knopki">
+        </form>
+
+    </body>
+</html>

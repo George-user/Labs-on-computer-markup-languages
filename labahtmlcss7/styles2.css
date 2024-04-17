@@ -1,0 +1,28 @@
+.textani{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+    text-indent: 25px;
+    color: black;
+    transition: color linear;
+    transition-duration: 20s;
+}
+.textani:hover{
+    color: red;
+}
+h1 {
+    text-align: center;
+    animation: h1 4s linear infinite;
+}
+@keyframes h1 {
+    0% {
+    opacity: 0;
+    }
+    50% {
+    opacity: 0.8;
+    }
+    100% {
+    opacity: 0;
+    }
+}

@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/*Минимальное обнуление*/
+body, div, p, ul, ol {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.container {
+  max-width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/*Шаблонный селектор*/
+.first-main-row .form label {
+  display: block;
+  margin: 5px 10px 5px 0px;
+}
+
+/*Миксин*/
+/*Функция*/
+/*Функция с условным оператором*/
+/*Header*/
+.header-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(182, 255, 243);
+  border-bottom: 1px solid rgb(0, 17, 255);
+}
+.header-row .header-row__logo {
+  flex: 1 0 20%;
+  margin: 10px 15px 10px 15px;
+}
+.header-row .header-row__logo img {
+  height: 50px;
+  width: 100px;
+  border: 1px solid blue;
+}
+.header-row .header-row__menu {
+  flex: 1 0 70%;
+  margin: 10px 15px 10px 15px;
+}
+.header-row .header-row__menu ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.header-row .header-row__menu ul li {
+  background-color: rgb(0, 255, 179);
+  list-style-type: none;
+  display: inline-block;
+  border: 1px solid rgb(0, 17, 255);
+  padding: 10px 20px 10px 20px;
+}
+
+/*Main*/
+.first-main-row {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: rgb(182, 255, 243);
+  border-bottom: 1px solid rgb(113, 113, 113);
+}
+.first-main-row .about {
+  flex: 1 0 70%;
+  margin: 10px 15px 10px 15px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.first-main-row .about .about__title {
+  flex: 1 0 100%;
+  text-align: center;
+}
+.first-main-row .about .about__title h3 {
+  font-size: 18px;
+  margin: 0px 0px 15px 0px;
+  color: rgb(0, 0, 0);
+}
+.first-main-row .about .about__text {
+  flex: 1 0 33%;
+  border-right: 1px solid rgb(0, 38, 255);
+}
+.first-main-row .about .about__text p {
+  text-indent: 20px;
+  margin: 0px 7px;
+  font-size: 16px;
+}
+.first-main-row .form {
+  flex: 1 0 30%;
+  margin: 10px 15px 10px 7px;
+  position: relative;
+}
+.first-main-row .form legend h3 {
+  font-size: 18px;
+  margin: 0px 0px 15px 0px;
+  color: rgb(0, 0, 0);
+}
+.first-main-row .form input[type=text] {
+  border: none;
+  border-radius: 2px/4px;
+  background-color: rgb(183, 255, 243);
+  width: 50%;
+  color: white;
+}
+
+.second-main-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  background-color: rgb(182, 255, 243);
+  border-bottom: 1px solid rgb(113, 113, 113);
+}
+.second-main-row .gallery {
+  flex: 1 0 60%;
+  display: flex;
+  flex-flow: row wrap;
+}
+.second-main-row .gallery .gallery-title {
+  flex: 1 0 100%;
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px 15px 0px;
+}
+.second-main-row .gallery .gallery-img {
+  flex: 1 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 10px 15px 10px 15px;
+}
+.second-main-row .gallery .gallery-img img {
+  width: 8rem;
+  height: 7rem;
+  border: 1px solid blue;
+}
+.second-main-row .aside {
+  flex: 1 0 40%;
+  display: flex;
+  flex-flow: column;
+}
+.second-main-row .aside .aside-title {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px 15px 0px;
+}
+.second-main-row .aside .columns {
+  display: flex;
+  flex-flow: row wrap;
+}
+.second-main-row .aside .columns .columns__first-row {
+  flex: 1 0 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 15px 10px 15px;
+}
+.second-main-row .aside .columns .columns__first-row img {
+  width: 4rem;
+  height: 3.5rem;
+  border: 1px solid blue;
+}
+.second-main-row .aside .columns .columns__first-row p {
+  margin: 0px 15px;
+  font-size: 16px;
+}
+.second-main-row .aside .columns .columns__second-row {
+  flex: 1 0 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 15px 10px 15px;
+}
+.second-main-row .aside .columns .columns__second-row img {
+  width: 4rem;
+  height: 3.5rem;
+  border: 1px solid blue;
+}
+.second-main-row .aside .columns .columns__second-row p {
+  margin: 0px 15px;
+  font-size: 16px;
+}
+
+/*Footer*/
+.footer-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(182, 255, 243);
+}
+.footer-row .footer-row__item {
+  margin: 15px 0px;
+}
+.footer-row .footer-row__item p {
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.8px;
+  color: rgb(25, 0, 255);
+  font-size: 16px;
+}/*# sourceMappingURL=style.css.map */

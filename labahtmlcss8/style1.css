@@ -1,0 +1,30 @@
+body {
+    display: flex;
+}
+aside {
+    padding: 20px;
+}
+section {
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+ul {
+    list-style-type: none;
+    
+    padding: 10px;
+}
+li>a {
+    display: block;
+    text-decoration: none;
+    color: red;
+}
+a:visited {
+    color: #8B0000;
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color: rgb(184, 134, 11);
+}

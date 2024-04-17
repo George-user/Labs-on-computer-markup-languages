@@ -1,0 +1,10 @@
+.gallery{
+    display: flex;
+    flex-flow: column wrap;
+}
+figcaption{
+    color: green;
+}
+img{
+    width: 100%;
+}
